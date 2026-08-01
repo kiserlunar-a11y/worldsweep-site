@@ -68,35 +68,13 @@ nav {
   padding: 68px 0 58px;
 }
 
-.app-mark {
+.app-icon {
   width: 180px;
   height: 180px;
+  display: block;
+  object-fit: cover;
   border-radius: 38px;
-  display: grid;
-  place-items: center;
-  position: relative;
-  overflow: hidden;
-  border: 9px solid #f5fbff;
-  background: linear-gradient(155deg, #122a43, #030a14);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.12);
-}
-
-.app-mark::before {
-  content: "⌖";
-  position: absolute;
-  top: 4px;
-  right: 9px;
-  color: var(--accent);
-  font-size: 2rem;
-  font-weight: 900;
-}
-
-.wapi-face {
-  color: var(--accent);
-  font-size: 3rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-shadow: 0 0 26px rgba(43, 213, 204, 0.65);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.18);
 }
 
 .eyebrow {
@@ -205,8 +183,7 @@ footer .shell {
 @media (max-width: 720px) {
   nav { align-items: flex-start; }
   .hero { grid-template-columns: 1fr; gap: 28px; padding-top: 42px; }
-  .app-mark { width: 132px; height: 132px; border-radius: 29px; border-width: 7px; }
-  .wapi-face { font-size: 2.2rem; }
+  .app-icon { width: 132px; height: 132px; border-radius: 29px; }
   .grid { grid-template-columns: 1fr; }
   .document { margin-top: 22px; }
 }
