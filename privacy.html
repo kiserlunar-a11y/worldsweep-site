@@ -19,7 +19,7 @@
     <article class="document">
       <section aria-labelledby="korean-title">
         <h1 id="korean-title">개인정보 처리방침</h1>
-        <p class="meta">WAPI’s Minesweeper · 시행일 및 최종 업데이트: 2026년 8월 2일</p>
+        <p class="meta">WAPI’s Minesweeper · 시행일 및 최종 업데이트: 2026년 8월 8일</p>
 
         <p>Waypoint Code(이하 “개발자”)는 WAPI’s Minesweeper(이하 “앱”) 이용자의 개인정보를 존중합니다. 이 방침은 앱이 처리하는 데이터, 이용 목적, 보관 및 삭제 방법을 설명합니다.</p>
 
@@ -30,10 +30,10 @@
         <h3>기기 내 게임 데이터</h3>
         <ul>
           <li>튜토리얼과 스테이지 진행도, 별, 기록, 플레이 통계</li>
-          <li>여행 코인, 힌트, 보유 및 장착한 꾸미기 아이템</li>
-          <li>언어, 음량, 햅틱, 접근성 등 앱 설정</li>
+          <li>여행 코인, 힌트, 보유 및 장착한 꾸미기 아이템과 음악</li>
+          <li>언어, 음량, 햅틱, 접근성, 음악 재생 및 로컬 알림 등 앱 설정</li>
           <li>일일 보상 중복 지급을 막기 위한 보상 이용 횟수와 날짜</li>
-          <li>중복 동기화 방지를 위해 앱이 무작위로 생성한 기기 식별값</li>
+          <li>중복 동기화 방지를 위해 앱이 무작위로 생성한 앱 설치 식별값</li>
         </ul>
         <p>이 데이터는 기본적으로 기기에 저장되며 게임 진행 제공, 설정 유지, 보상 중복 방지와 오류 없는 동기화에 사용됩니다.</p>
 
@@ -44,69 +44,84 @@
         <p>사용자가 Game Center를 이용하면 앱은 인증 상태와 표시 이름을 확인하고 총 별, 클래식 모드 완료 시간 및 업적 진척도를 Apple Game Center에 제출할 수 있습니다. Game Center 프로필과 순위표 공개 범위는 사용자의 Apple 설정을 따릅니다.</p>
 
         <h3>App Store 구매</h3>
-        <p>광고 제거 상품의 구매와 복원은 Apple StoreKit을 통해 처리됩니다. 앱은 구매 상품 ID와 현재 이용 권한만 확인하며, 결제 카드 번호 등 결제 정보에는 접근하지 않습니다.</p>
+        <p>광고 제거 등 비소모성 인앱 상품의 구매와 복원은 Apple의 StoreKit을 통해 처리됩니다. 앱은 구매 상품 ID와 현재 이용 권한만 확인하며, 결제 카드 번호 등 결제 정보에는 접근하지 않습니다.</p>
 
         <h3>광고</h3>
-        <p>앱은 Google AdMob을 통해 배너와 사용자가 직접 선택하는 보상형 광고를 제공합니다. 전면 광고는 사용하지 않습니다. Google Mobile Ads SDK는 광고 제공, 부정행위 방지, 측정 및 진단을 위해 IP 주소, 기기 식별자, 광고 조회·클릭 등 상호작용, 진단·성능 정보와 대략적인 위치 정보를 처리할 수 있습니다. 실제 처리 범위는 사용자의 지역, 동의 선택과 기기 개인정보 설정에 따라 달라집니다.</p>
-        <p>법령상 필요한 지역에서는 Google User Messaging Platform을 통해 동의를 요청합니다. 이용자는 앱의 “설정 &gt; 광고 개인정보 설정”에서 개인정보 선택사항을 다시 확인하거나 변경할 수 있습니다. 앱은 IDFA를 이용한 앱 간 추적 광고를 사용하지 않고 Apple의 앱 추적 투명성(ATT) 권한 창을 표시하지 않으며, 광고 요청은 비개인화 방식으로 처리되도록 구성됩니다.</p>
+        <p>앱은 Google AdMob을 통해 배너와 사용자가 직접 선택하는 보상형 광고를 제공합니다. 전면 광고는 사용하지 않습니다. Google Mobile Ads SDK와 광고 콘텐츠는 광고 제공, 게재 빈도 관리, 부정행위 방지, 측정 및 진단을 위해 IP 주소, 기기 또는 앱 식별자, 기기 내 저장 기술(광고 웹 콘텐츠의 쿠키 또는 웹 비콘 포함), 광고 조회·클릭과 앱 상호작용, 광고 데이터, 진단·성능 정보 및 IP 주소에서 추정한 대략적인 위치를 처리할 수 있습니다. 실제 처리 범위는 사용자의 지역, 동의 선택과 기기 개인정보 설정에 따라 달라집니다.</p>
+        <p>법령상 필요한 지역에서는 Google User Messaging Platform을 통해 동의를 요청합니다. 이용자는 앱의 “설정 &gt; 광고 개인정보 설정”에서 개인정보 선택사항을 다시 확인하거나 변경할 수 있습니다. 앱은 IDFA를 이용한 앱 간 추적 광고를 사용하지 않고 Apple의 앱 추적 투명성(ATT) 권한 창을 표시하지 않으며, 광고 요청은 비개인화 방식으로 처리되도록 구성됩니다. 지역별 법적 요건과 사용자의 개인정보 선택에 따라 제한된 광고가 제공되거나 광고 요청이 제한될 수 있습니다.</p>
+        <p>앱은 Firebase Analytics와 같은 별도의 이용 행태 분석 SDK를 사용하지 않습니다. 다만 Google AdMob은 위에서 설명한 광고 측정, 부정행위 방지 및 진단 정보를 처리할 수 있습니다.</p>
+
+        <h3>로컬 알림</h3>
+        <p>이용자가 알림을 허용하면 앱은 새 퍼즐과 모험을 알리기 위한 로컬 알림을 기기에서 예약합니다. 앱은 알림 전송을 위해 외부 푸시 서버나 APNs 기기 토큰을 사용하지 않습니다. 알림 사용 여부, 예약 시각 및 최근에 사용한 문구 기록은 게임 설정의 일부로 저장되며 iCloud가 활성화된 경우 다른 게임 데이터와 함께 동기화될 수 있습니다. 알림 권한 자체는 Apple의 기기 설정에서 관리됩니다.</p>
+
+        <h3>지원 문의</h3>
+        <p>이용자가 이메일로 지원을 요청하면 개발자는 이용자가 직접 제공한 이메일 주소, 문의 내용, 앱·기기 정보 및 첨부 파일을 받습니다. 이 정보는 문의에 답변하고 문제를 조사하는 데 사용됩니다. 스크린샷을 보낼 때에는 불필요한 개인정보가 포함되지 않도록 확인해 주세요.</p>
 
         <h2>3. 이용 목적</h2>
         <ul>
           <li>게임 기능 제공, 진행 저장과 기기 간 동기화</li>
           <li>Game Center 순위표와 업적 제공</li>
-          <li>인앱 구매 처리 및 광고 제거 권한 확인</li>
+          <li>인앱 구매 처리 및 구매 이용 권한 확인</li>
           <li>광고 제공, 보상 지급과 부정 사용 방지</li>
+          <li>사용자가 허용한 로컬 알림 예약</li>
+          <li>지원 문의 답변과 문제 해결</li>
           <li>오류 진단, 안정성 및 성능 개선</li>
         </ul>
 
         <h2>4. 제3자 서비스</h2>
         <ul>
-          <li><strong>Apple</strong>: iCloud/CloudKit, Game Center, App Store 및 StoreKit — <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple 개인정보 처리방침</a></li>
-          <li><strong>Google</strong>: Google AdMob 및 User Messaging Platform — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a> · <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google의 파트너 앱 데이터 이용 안내</a></li>
+          <li><strong>Apple</strong>: iCloud/CloudKit, Game Center, App Store, StoreKit 및 로컬 알림 권한 — <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple 개인정보 처리방침</a></li>
+          <li><strong>Google</strong>: Google AdMob, User Messaging Platform 및 지원 이메일용 Gmail — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a> · <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google의 파트너 앱 데이터 이용 안내</a></li>
         </ul>
         <p>각 서비스 제공자의 데이터 처리에는 해당 제공자의 개인정보 처리방침이 적용될 수 있습니다. 개발자는 개인정보를 판매하지 않습니다.</p>
 
         <h2>5. 보관 및 삭제</h2>
         <ul>
-          <li>기기 내 데이터는 앱의 “진행 초기화” 기능 또는 앱 삭제로 제거할 수 있습니다.</li>
+          <li>기기에 저장된 게임 데이터 사본은 앱의 “진행 초기화” 기능 또는 앱 삭제로 제거할 수 있습니다.</li>
           <li>진행 초기화를 실행하면 초기화 상태가 iCloud에 동기화되어 이전 게임 진행이 다시 복구되지 않도록 처리됩니다.</li>
           <li>iCloud 데이터와 Apple 서비스 데이터는 사용자의 Apple 계정 및 iCloud 설정에 따라 Apple이 보관합니다.</li>
           <li>광고 관련 데이터의 보관 기간과 삭제는 Google 정책 및 사용자의 개인정보 선택에 따릅니다.</li>
+          <li>지원 이메일은 문의 답변, 문제 해결 및 필요한 후속 조치를 위해 필요한 기간 동안 보관한 뒤 삭제합니다.</li>
         </ul>
         <p>지원이 필요하면 아래 연락처로 문의할 수 있습니다. 본인 확인과 서비스 제공에 필요한 범위에서 요청을 처리합니다.</p>
 
-        <h2>6. 아동의 개인정보</h2>
+        <h2>6. 이용자의 권리와 선택</h2>
+        <p>이용자는 앱에서 진행을 초기화하고, 로컬 알림을 끄고, 필요한 경우 광고 개인정보 선택사항을 변경할 수 있습니다. iCloud, Game Center, App Store 구매 및 알림의 운영체제 권한은 Apple 계정 또는 기기 설정에서 관리할 수 있습니다.</p>
+        <p>이용자는 관련 법령이 허용하는 범위에서 개인정보의 열람, 정정, 삭제, 처리 정지 또는 동의 철회를 요청할 수 있습니다. 요청은 아래 이메일로 접수하며, 개발자가 직접 관리하지 않는 Apple 또는 Google 서비스 데이터는 해당 서비스 제공자의 절차를 안내할 수 있습니다. 일부 처리를 거부하면 iCloud 동기화, Game Center, 광고 보상처럼 해당 데이터가 필요한 선택 기능을 이용하지 못할 수 있으나 기본 게임 플레이는 계속 이용할 수 있습니다.</p>
+
+        <h2>7. 아동의 개인정보</h2>
         <p>앱은 일반 사용자를 대상으로 하며 개발자가 고의로 만 13세 미만 아동의 개인정보를 직접 수집하도록 설계되지 않았습니다. 보호자가 우려 사항을 발견하면 개발자에게 연락해 주세요.</p>
 
-        <h2>7. 보안 및 국외 처리</h2>
-        <p>게임 데이터는 운영체제의 앱 저장 공간과 Apple의 비공개 CloudKit 데이터베이스를 사용해 보호합니다. Apple 또는 Google의 서비스 제공 과정에서 데이터가 사용자의 국가 밖에서 처리될 수 있습니다.</p>
+        <h2>8. 보안 및 국외 처리</h2>
+        <p>게임 데이터는 운영체제의 앱 저장 공간과 Apple의 비공개 CloudKit 데이터베이스를 사용해 보호합니다. 앱은 전송이 필요한 경우 운영체제와 서비스 제공자가 제공하는 암호화된 네트워크 연결을 사용합니다.</p>
+        <p>iCloud, Game Center, StoreKit, AdMob 및 User Messaging Platform을 사용하는 동안 제2항에 설명된 데이터가 Apple 또는 Google의 글로벌 인프라가 위치한 국가에서 네트워크를 통해 처리될 수 있습니다. 이전 시점은 해당 기능 또는 광고를 이용할 때이며 목적과 보관 기간은 이 방침과 각 제공자의 개인정보 처리방침을 따릅니다. 이용자는 관련 기능을 끄거나 광고 개인정보 선택사항을 변경할 수 있으며, 서비스 제공에 필수적인 처리를 거부하면 해당 선택 기능이 제한될 수 있습니다.</p>
 
-        <h2>8. 방침 변경</h2>
+        <h2>9. 방침 변경</h2>
         <p>기능, 법령 또는 제3자 서비스 변경에 따라 이 방침을 갱신할 수 있습니다. 중요한 변경은 이 페이지의 최종 업데이트 날짜를 변경하고 필요한 경우 앱에서 안내합니다.</p>
 
-        <h2>9. 문의</h2>
-        <div class="notice"><strong>Waypoint Code</strong><br>이메일: <a href="mailto:skylog486@gmail.com">skylog486@gmail.com</a><br>지원 페이지: <a href="support.html">WAPI’s Minesweeper 지원</a></div>
+        <h2>10. 문의</h2>
+        <div class="notice"><strong>개인정보 문의 담당: Waypoint Code</strong><br>이메일: <a href="mailto:skylog486@gmail.com">skylog486@gmail.com</a><br>지원 페이지: <a href="support.html">WAPI’s Minesweeper 지원</a></div>
       </section>
 
       <hr class="language-divider">
 
       <section id="english" lang="en" aria-labelledby="english-title">
         <h1 id="english-title">Privacy Policy</h1>
-        <p class="meta">WAPI’s Minesweeper · Effective and last updated: August 2, 2026</p>
+        <p class="meta">WAPI’s Minesweeper · Effective and last updated: August 8, 2026</p>
 
-        <p>Waypoint Code (“Developer”) respects the privacy of users of WAPI’s Minesweeper (“App”). This policy explains what data the App handles, why it is used, and how it can be retained or deleted.</p>
+        <p>Waypoint Code (“Developer”) respects the privacy of WAPI’s Minesweeper (“App”) users. This policy explains what data the App handles, why it is used, how long it is retained, and how it can be deleted.</p>
 
         <h2>1. App accounts</h2>
-        <p>The App does not create its own membership or login account. iCloud, Game Center, and App Store features are provided by Apple through the user’s Apple Account. The Developer does not receive Apple Account passwords or payment card details.</p>
+        <p>The App does not require registration or provide a separate in-app account. iCloud, Game Center, and App Store features are provided by Apple through the user’s Apple Account. The Developer does not receive Apple Account passwords or payment card details.</p>
 
         <h2>2. Data handled by the App</h2>
         <h3>On-device game data</h3>
         <ul>
           <li>Tutorial and stage progress, stars, records, and play statistics</li>
-          <li>Travel coins, hints, and owned or equipped cosmetic items</li>
-          <li>Language, volume, haptics, accessibility, and other settings</li>
+          <li>Travel coins, hints, owned or equipped cosmetic items, and owned music</li>
+          <li>Language, volume, haptics, accessibility, music playback, notification preferences, and other settings</li>
           <li>Reward-use counts and dates used to prevent duplicate daily rewards</li>
-          <li>A random app-generated device identifier used to prevent duplicate synchronization</li>
+          <li>A random app-installation identifier used to prevent duplicate synchronization</li>
         </ul>
         <p>This data is stored on the device by default and is used to provide gameplay, preserve settings, prevent duplicate rewards, and synchronize progress reliably.</p>
 
@@ -117,47 +132,62 @@
         <p>When Game Center is used, the App may check authentication status and display name and submit total stars, Classic Mode completion times, and achievement progress to Apple Game Center. Profile and leaderboard visibility follow the user’s Apple settings.</p>
 
         <h3>App Store purchases</h3>
-        <p>Purchase and restoration of the Remove Ads product are processed by Apple StoreKit. The App checks only the product identifier and current entitlement and does not access payment card information.</p>
+        <p>Purchases and restorations of non-consumable in-app products, including Remove Ads, are processed through Apple’s StoreKit. The App checks only the product identifier and current entitlement and does not access payment card information.</p>
 
         <h3>Advertising</h3>
-        <p>The App provides banner and user-initiated rewarded ads through Google AdMob. It does not use interstitial ads. To provide ads, prevent fraud, measure performance, and diagnose issues, the Google Mobile Ads SDK may process IP address, device identifiers, ad views and clicks, diagnostic and performance information, and approximate location. Actual processing depends on the user’s region, consent choices, and device privacy settings.</p>
-        <p>Where required by law, the App requests consent through Google’s User Messaging Platform. Users can review or change applicable privacy choices from “Settings &gt; Ad Privacy” in the App. The App does not use IDFA for cross-app tracking ads, does not display Apple’s App Tracking Transparency (ATT) prompt, and is configured to request non-personalized ads.</p>
+        <p>The App provides banner and user-initiated rewarded ads through Google AdMob. It does not use interstitial ads. To serve and frequency-cap ads, prevent fraud, measure performance, and diagnose issues, the Google Mobile Ads SDK and ad content may process IP addresses, device or app identifiers, on-device storage technologies (including cookies or web beacons in ad web content), ad views and clicks, app interactions, advertising data, diagnostic and performance information, and approximate location inferred from an IP address. Actual processing depends on the user’s region, consent choices, and device privacy settings.</p>
+        <p>Where required by law, the App requests consent through Google’s User Messaging Platform. Users can review or change applicable privacy choices from “Settings &gt; Ad Privacy” in the App. The App does not use IDFA for cross-app tracking ads, does not display Apple’s App Tracking Transparency (ATT) prompt, and is configured to request non-personalized ads. Depending on regional legal requirements and the user’s privacy choices, limited ads may be served or ad requests may be restricted.</p>
+        <p>The App does not use a separate behavioral analytics SDK such as Firebase Analytics. Google AdMob may still process the advertising measurement, fraud-prevention, and diagnostic information described above.</p>
+
+        <h3>Local notifications</h3>
+        <p>If the user allows notifications, the App schedules local reminders for new puzzles and adventures on the device. The App does not use an external push server or an APNs device token to deliver these reminders. Notification preferences, the scheduled time, and recently used message keys are stored as part of the game settings and may synchronize with other game data when iCloud is enabled. Notification permission itself is managed in Apple’s device settings.</p>
+
+        <h3>Support inquiries</h3>
+        <p>If a user requests support by email, the Developer receives the email address, message, app and device information, and attachments that the user chooses to provide. This information is used to respond to the request and investigate the issue. Before sending a screenshot, please check that it does not contain unnecessary personal information.</p>
 
         <h2>3. Purposes</h2>
         <ul>
           <li>Provide gameplay, save progress, and synchronize devices</li>
           <li>Provide Game Center leaderboards and achievements</li>
-          <li>Process in-app purchases and verify the Remove Ads entitlement</li>
+          <li>Process in-app purchases and verify purchase entitlements</li>
           <li>Serve ads, grant rewards, and prevent abuse</li>
+          <li>Schedule local notifications authorized by the user</li>
+          <li>Respond to support requests and resolve issues</li>
           <li>Diagnose errors and improve stability and performance</li>
         </ul>
 
         <h2>4. Third-party services</h2>
         <ul>
-          <li><strong>Apple</strong>: iCloud/CloudKit, Game Center, App Store, and StoreKit — <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a></li>
-          <li><strong>Google</strong>: Google AdMob and User Messaging Platform — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses data from partner apps</a></li>
+          <li><strong>Apple</strong>: iCloud/CloudKit, Game Center, App Store, StoreKit, and local notification permissions — <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a></li>
+          <li><strong>Google</strong>: Google AdMob, User Messaging Platform, and Gmail for support email — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses data from partner apps</a></li>
         </ul>
         <p>Each provider’s privacy policy may apply to its processing. The Developer does not sell personal information.</p>
 
         <h2>5. Retention and deletion</h2>
         <ul>
-          <li>On-device data can be removed with “Reset Progress” in the App or by deleting the App.</li>
+          <li>The copy of game data stored on the device can be removed with “Reset Progress” in the App or by deleting the App.</li>
           <li>Resetting progress synchronizes the reset state to iCloud so that old game progress is not restored.</li>
           <li>Apple retains iCloud and Apple service data according to the user’s Apple Account and iCloud settings.</li>
           <li>Retention and deletion of advertising data are governed by Google’s policies and the user’s privacy choices.</li>
+          <li>Support emails are retained for as long as needed to respond, troubleshoot, and complete any necessary follow-up, and are then deleted.</li>
         </ul>
 
-        <h2>6. Children’s privacy</h2>
+        <h2>6. User rights and choices</h2>
+        <p>Users can reset progress, turn off local notifications, and, where available, change advertising privacy choices in the App. Operating-system permissions for iCloud, Game Center, App Store purchases, and notifications can be managed through Apple Account or device settings.</p>
+        <p>Subject to applicable law, users may request access to, correction or deletion of, restriction of processing of, or withdrawal of consent for personal information. Requests can be sent to the email address below. For data controlled directly by Apple or Google, the Developer may direct the user to the applicable provider’s process. Refusing some processing may make optional features that require it—such as iCloud synchronization, Game Center, or ad rewards—unavailable, while core gameplay remains available.</p>
+
+        <h2>7. Children’s privacy</h2>
         <p>The App is intended for a general audience and is not designed for the Developer to knowingly collect personal information directly from children under 13. A parent or guardian may contact the Developer with concerns.</p>
 
-        <h2>7. Security and international processing</h2>
-        <p>Game data is protected using the operating system’s app storage and Apple’s private CloudKit database. Apple or Google may process data outside the user’s country when providing their services.</p>
+        <h2>8. Security and international processing</h2>
+        <p>Game data is protected using the operating system’s app storage and Apple’s private CloudKit database. When network transmission is required, the App uses encrypted connections provided by the operating system and service providers.</p>
+        <p>When iCloud, Game Center, StoreKit, AdMob, or the User Messaging Platform is used, data described in Section 2 may be transmitted over the network and processed in countries where Apple’s or Google’s global infrastructure operates. Transfers occur when the applicable feature or advertising service is used, and their purposes and retention follow this policy and the provider’s privacy policy. Users may disable applicable features or change advertising privacy choices; refusing processing that is necessary for a feature may limit that optional feature.</p>
 
-        <h2>8. Changes</h2>
+        <h2>9. Changes</h2>
         <p>This policy may be updated when features, laws, or third-party services change. Material changes will be reflected by updating the date on this page and, when necessary, notifying users in the App.</p>
 
-        <h2>9. Contact</h2>
-        <div class="notice"><strong>Waypoint Code</strong><br>Email: <a href="mailto:skylog486@gmail.com">skylog486@gmail.com</a><br>Support: <a href="support.html">WAPI’s Minesweeper Support</a></div>
+        <h2>10. Contact</h2>
+        <div class="notice"><strong>Privacy contact: Waypoint Code</strong><br>Email: <a href="mailto:skylog486@gmail.com">skylog486@gmail.com</a><br>Support: <a href="support.html">WAPI’s Minesweeper Support</a></div>
       </section>
     </article>
   </main>
